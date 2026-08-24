@@ -13,23 +13,3 @@
   line-height: 16px;
   color: #ffffff;
 }
-
-/* Tablet */
-@media screen and (max-width: 1024px) {
-  .footer {
-    margin-top: 80px;
-  }
-}
-
-/* Mobile */
-@media screen and (max-width: 544px) {
-  .footer {
-    margin-top: 60px;
-    padding-bottom: 20px;
-  }
-
-  .footer__copyright {
-    font-size: 14px;
-    line-height: 16px;
-  }
-}
