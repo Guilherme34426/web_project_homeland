@@ -5,8 +5,8 @@
   gap: 16px;
   max-width: 1184px;
   width: 100%;
-  height: 442px;
   margin: 118px auto 0;
+  padding: 0 16px;
   box-sizing: border-box;
 }
 
@@ -24,7 +24,6 @@
     grid-template-rows: repeat(4, 264px);
     gap: 16px;
     max-width: 720px;
-    height: 1104px;
     margin: 60px auto 0;
   }
 
@@ -37,14 +36,12 @@
 @media screen and (max-width: 544px) {
   .photo-grid {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(8, 216px);
+    grid-template-rows: repeat(8, auto);
     gap: 12px;
-    max-width: 288px;
-    height: 1812px;
     margin: 40px auto 0;
   }
 
   .photo-grid__item {
-    height: 216px;
+    height: auto;
   }
 }

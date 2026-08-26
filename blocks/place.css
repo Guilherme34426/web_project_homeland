@@ -121,7 +121,7 @@
    IPAD — até 768px
    ========================= */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 980px) {
   .place {
     width: calc(100% - 48px);
     grid-template-columns: 1fr 1fr;
@@ -165,6 +165,7 @@
     width: calc(100% - 32px);
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-rows: auto;
     row-gap: 16px;
     margin: 0 auto 48px;
   }
