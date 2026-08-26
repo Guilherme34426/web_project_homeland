@@ -6,7 +6,8 @@
 }
 
 .lead__title {
-  width: 720px;
+  width: 100%;
+  max-width: 720px;
   margin: 0;
 
   font-family: "Inter", Arial, sans-serif;
@@ -18,7 +19,8 @@
 }
 
 .lead__subtitle {
-  width: 720px;
+  width: 100%;
+  max-width: 720px;
   margin: 32px 0 64px;
 
   font-family: "Inter", Arial, sans-serif;
@@ -44,13 +46,13 @@
   }
 
   .lead__title {
-    width: 600px;
+    max-width: 600px;
     font-size: 45px;
     line-height: 49px;
   }
 
   .lead__subtitle {
-    width: 600px;
+    max-width: 600px;
     margin: 20px 0 40px;
 
     font-size: 24px;
@@ -71,14 +73,14 @@
   }
 
   .lead__title {
-    width: calc(100% - 40px);
+    max-width: calc(100% - 40px);
 
     font-size: 32px;
     line-height: 35px;
   }
 
   .lead__subtitle {
-    width: calc(100% - 40px);
+    max-width: calc(100% - 40px);
     margin: 16px 0 48px;
 
     font-size: 16px;
